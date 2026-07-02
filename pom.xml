@@ -23,6 +23,7 @@
         <module>customer-service</module>
         <module>notification-service</module>
         <module>loyalty-service</module>
+        <module>booking-service</module>
     </modules>
 
     <properties>
@@ -76,7 +77,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>3.9.11</version>
+                                    <version>[3.9.11,)</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
