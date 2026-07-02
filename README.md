@@ -1,17 +1,32 @@
-✈️ Online Flight Booking System
+# ✈️ Online Flight Booking System
+
 A full-featured microservice-based backend for an online flight booking platform. It allows users to search and book flights, receive notifications (via SMS), and earn loyalty points. The system includes user authentication, role-based access control, and integration with messaging and external services.
-🔧 Features 🧑‍💻 User Side
+
+---
+
+## 🔧 Features
+
+### 🧑‍💻 User Side
+
 - Flight Search: Find available flights by origin, destination, and date.
 - Booking: Book flights and receive booking confirmation.
 - Notifications: Receive booking confirmations via SMS (ActiveMQ-based system).
 - Loyalty System: Earn loyalty points per booking via integration with a SOAP-based external service.
 - User Authentication: Register, login, and access booking history.
 - User Roles: Standard users and admins with different access levels.
-🛠️ Admin Side
+
+### 🛠️ Admin Side
+
 - Flight Management: Create, update, or delete flights (CRUD).
 - View Bookings: Monitor all user bookings.
 - Manage Users: Admin access to user information.
-💻 Technologies Used 🔸 Backend — Spring Boot
+
+---
+
+## 💻 Technologies Used
+
+### 🔸 Backend — Spring Boot
+
 - Spring Boot — Core framework for rapid backend development.
 - Spring MVC — RESTful APIs for client communication.
 - Spring Security — User authentication, password encryption, and role-based access control.
@@ -23,6 +38,8 @@ A full-featured microservice-based backend for an online flight booking platform
 - JWT (JSON Web Tokens) — Secure, stateless user session handling.
 - Lombok — Reduces boilerplate code.
 - Maven — Dependency management and build tool.
-🧰 Additional Tools
+
+### 🧰 Additional Tools
+
 - Git — Version control.
 - IntelliJ IDEA — Recommended IDE for Spring Boot development.
